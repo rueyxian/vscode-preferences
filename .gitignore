@@ -1,0 +1,7 @@
+# all files and folders 
+*
+
+# except...
+!.gitignore
+!settings.json
+!keybindings.json

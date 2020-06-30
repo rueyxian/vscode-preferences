@@ -1,0 +1,72 @@
+{
+    "window.zoomLevel": 0,
+
+    // "terminal.integrated.shell.window:": "C:\\Windows\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+    "workbench.colorTheme": "rimless-monokai",
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 7,
+    "workbench.editor.limit.enabled": true,
+    // "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 23,
+    "workbench.tree.renderIndentGuides": "always",
+    
+    "editor.tabSize": 2,
+    "editor.formatOnType": true,
+    "editor.wordWrap": "on",
+    "editor.renderIndentGuides": false,
+    
+    "files.autoSave": "off",
+    
+    "guides.active.color.dark": "rgba(140, 60, 60, 0.75)",
+    "guides.active.width": 2,
+    "editor.lineNumbers": "relative",
+
+    // "[html]": {
+    //     "editor.defaultFormatter": "vscode.html-language-features"
+    // },
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "vscode.typescript-language-features"
+    // },
+    // "[typescript]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    
+    "vim.leader": "<space>",
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.insertModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<C-l>"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+
+      {
+        "before": ["o"],
+        "after": ["o", "<esc>"]
+      },
+      {
+        "before": ["O"],
+        "after": ["O", "<esc>"]
+      },
+
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      }
+    ],
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    }
+    
+}
